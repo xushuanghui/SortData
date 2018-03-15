@@ -15,6 +15,7 @@
 		A5A4AC482004AE9700AB4EB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A4AC472004AE9700AB4EB1 /* main.m */; };
 		A5A4AC522004AE9700AB4EB1 /* SortDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A4AC512004AE9700AB4EB1 /* SortDataTests.m */; };
 		A5A4AC5D2004AE9800AB4EB1 /* SortDataUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A4AC5C2004AE9800AB4EB1 /* SortDataUITests.m */; };
+		EA349C7F60D2C39BB04C78E5 /* libPods-SortData.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB266F0ED90A8E1234A196C1 /* libPods-SortData.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00941902661F894B7BD6AAB4 /* Pods-SortData.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SortData.release.xcconfig"; path = "Pods/Target Support Files/Pods-SortData/Pods-SortData.release.xcconfig"; sourceTree = "<group>"; };
 		A5A4AC352004AE9700AB4EB1 /* SortData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SortData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5A4AC382004AE9700AB4EB1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A5A4AC392004AE9700AB4EB1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +53,8 @@
 		A5A4AC582004AE9700AB4EB1 /* SortDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SortDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5A4AC5C2004AE9800AB4EB1 /* SortDataUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SortDataUITests.m; sourceTree = "<group>"; };
 		A5A4AC5E2004AE9800AB4EB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB266F0ED90A8E1234A196C1 /* libPods-SortData.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SortData.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C483DFCEDD51363521537560 /* Pods-SortData.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SortData.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SortData/Pods-SortData.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA349C7F60D2C39BB04C78E5 /* libPods-SortData.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +90,8 @@
 				A5A4AC502004AE9700AB4EB1 /* SortDataTests */,
 				A5A4AC5B2004AE9700AB4EB1 /* SortDataUITests */,
 				A5A4AC362004AE9700AB4EB1 /* Products */,
+				FA85DFF54F240644CEA1078A /* Pods */,
+				C9D21E17450A275D8CF29630 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +139,23 @@
 			path = SortDataUITests;
 			sourceTree = "<group>";
 		};
+		C9D21E17450A275D8CF29630 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB266F0ED90A8E1234A196C1 /* libPods-SortData.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA85DFF54F240644CEA1078A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C483DFCEDD51363521537560 /* Pods-SortData.debug.xcconfig */,
+				00941902661F894B7BD6AAB4 /* Pods-SortData.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +163,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A5A4AC612004AE9800AB4EB1 /* Build configuration list for PBXNativeTarget "SortData" */;
 			buildPhases = (
+				F6B45BABC6E22859C946BBA6 /* [CP] Check Pods Manifest.lock */,
 				A5A4AC312004AE9700AB4EB1 /* Sources */,
 				A5A4AC322004AE9700AB4EB1 /* Frameworks */,
 				A5A4AC332004AE9700AB4EB1 /* Resources */,
+				AE70F0F3E99CB858B029E353 /* [CP] Embed Pods Frameworks */,
+				2CFA8649E17C1B9741A3FCD0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -259,6 +286,57 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2CFA8649E17C1B9741A3FCD0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SortData/Pods-SortData-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE70F0F3E99CB858B029E353 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SortData/Pods-SortData-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6B45BABC6E22859C946BBA6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SortData-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A5A4AC312004AE9700AB4EB1 /* Sources */ = {
@@ -428,6 +506,7 @@
 		};
 		A5A4AC622004AE9800AB4EB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C483DFCEDD51363521537560 /* Pods-SortData.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -442,6 +521,7 @@
 		};
 		A5A4AC632004AE9800AB4EB1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00941902661F894B7BD6AAB4 /* Pods-SortData.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
