@@ -23,7 +23,7 @@ typedef struct Data {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    NSLog(@"更新");
+    NSLog(@"更新1");
     
     int A[] = {9,8,7,6,5,4,3,2,1};
     int n = sizeof(A) / sizeof(int);

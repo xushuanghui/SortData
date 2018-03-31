@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		175E3F08206F680D00558906 /* SortModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 175E3F07206F680D00558906 /* SortModel.m */; };
 		A5A4AC3A2004AE9700AB4EB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A4AC392004AE9700AB4EB1 /* AppDelegate.m */; };
 		A5A4AC3D2004AE9700AB4EB1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A4AC3C2004AE9700AB4EB1 /* ViewController.m */; };
 		A5A4AC402004AE9700AB4EB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5A4AC3E2004AE9700AB4EB1 /* Main.storyboard */; };
@@ -37,6 +38,8 @@
 
 /* Begin PBXFileReference section */
 		00941902661F894B7BD6AAB4 /* Pods-SortData.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SortData.release.xcconfig"; path = "Pods/Target Support Files/Pods-SortData/Pods-SortData.release.xcconfig"; sourceTree = "<group>"; };
+		175E3F06206F680D00558906 /* SortModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SortModel.h; sourceTree = "<group>"; };
+		175E3F07206F680D00558906 /* SortModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SortModel.m; sourceTree = "<group>"; };
 		A5A4AC352004AE9700AB4EB1 /* SortData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SortData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5A4AC382004AE9700AB4EB1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A5A4AC392004AE9700AB4EB1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -112,6 +115,8 @@
 				A5A4AC392004AE9700AB4EB1 /* AppDelegate.m */,
 				A5A4AC3B2004AE9700AB4EB1 /* ViewController.h */,
 				A5A4AC3C2004AE9700AB4EB1 /* ViewController.m */,
+				175E3F06206F680D00558906 /* SortModel.h */,
+				175E3F07206F680D00558906 /* SortModel.m */,
 				A5A4AC3E2004AE9700AB4EB1 /* Main.storyboard */,
 				A5A4AC412004AE9700AB4EB1 /* Assets.xcassets */,
 				A5A4AC432004AE9700AB4EB1 /* LaunchScreen.storyboard */,
@@ -346,6 +351,7 @@
 				A5A4AC3D2004AE9700AB4EB1 /* ViewController.m in Sources */,
 				A5A4AC482004AE9700AB4EB1 /* main.m in Sources */,
 				A5A4AC3A2004AE9700AB4EB1 /* AppDelegate.m in Sources */,
+				175E3F08206F680D00558906 /* SortModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
